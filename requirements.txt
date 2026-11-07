@@ -1,0 +1,11 @@
+# 核心零依赖, 以下全部为可选增强件
+# HTTPS CA 证书库 (推荐, 部分机器 Python 缺系统根证书):
+certifi
+# OCR (离线中文, 贴国内):
+rapidocr-onnxruntime
+# UIA 元素树 (国产库):
+uiautomation
+# 截图缩放 (可选, 不装则返回原图):
+Pillow
+# 打包工具 (仅开发机):
+pyinstaller
