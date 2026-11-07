@@ -1,6 +1,6 @@
 # OmniWin-MCP 全能视窗 MCP
 
-> **一款融合三家之长、为"人类说了算"设计的 Windows 桌面自动化 MCP 。**
+> **一款融合了三款不同的WindowsMCP，为"自己说了算"设计的 Windows 桌面自动化 MCP 。**
 >
 > 框架路线致敬 [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP)（Python + stdio）  
 > 国内向能力致敬 [shuyu-labs/Windows-MCP.Net](https://github.com/shuyu-labs/Windows-MCP.Net)（OCR / 系统控制 / 中文优先）  
@@ -9,7 +9,7 @@
 
 ---
 
-## ✨ 独有特性（别家没有的）
+## ✨ 独有特性
 
 | 特性                 | 说明                                                                                                                                                                                         |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -160,7 +160,7 @@ python -c "import certifi; print('certifi OK')"
 
 ---
 
-## 🎮 人类管控（核心卖点）
+## 🎮 人类管控
 
 ```
 平时:    AI 正常操作, control_status 返回 running
