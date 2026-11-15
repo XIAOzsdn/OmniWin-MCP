@@ -63,7 +63,7 @@
 | VS Code        | 命令面板搜 "MCP: Open User Configuration"          |
 | 其他             | MCP/连接器设置里类型选 **stdio**，命令指向 exe              |
 
-**第 3 步 · 重启客户端**：看到 74 个 OmniWin 工具出现即部署成功。
+**第 3 步 · 重启客户端**：看到 77 个 OmniWin 工具出现即部署成功。
 
 ---
 
@@ -73,7 +73,7 @@
 # 1. 进入源码根目录
 cd omniwin-mcp
 
-# 2. 启动（stderr 看到「热键监听已启动 (74 个工具就绪)」即成功）
+# 2. 启动（stderr 看到「热键监听已启动 (77 个工具就绪)」即成功）
 python -m omniwin
 ```
 
@@ -182,7 +182,7 @@ AI 侧:   冻结期只有 control_status / pause / resume 三个管控工具可�
 OmniWin-MCP.exe --exclude-tools "powershell,registry_set,registry_delete"
 ```
 
-## 🔨 工具总览（74 个，13 大类）
+## 🔨 工具总览（77 个，13 大类）
 
 | 类别           | 工具                                                                                                                                                    | 来源                           |
 | ------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
@@ -217,7 +217,7 @@ omniwin-mcp/
 │   ├── registry.py    # 工具注册 + confirm 装饰器 + JSON Schema 自动生成
 │   ├── control.py     # 人类管控: 全局热键 + 冻结闸门 + toast 反馈
 │   ├── winapi.py      # Windows API ctypes 层 (鼠标键盘/截图/窗口/剪贴板)
-│   └── tools/         # 13 大类 74 个工具
+│   └── tools/         # 13 大类 77 个工具
 ├── tests/smoke_test.py
 ├── OmniWin-MCP.spec   # PyInstaller 配置
 ├── build.py           # 一键打包
